@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  background-size: 400% 400%;
+  transition: background 0.8s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.quote-box {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+  max-width: 400px;
+  width: 90%;
+  color: #fff;
+  text-align: center;
+  animation: fadeIn 1s ease;
+}
+
+#quote {
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  transition: opacity 0.5s ease;
+}
+
+#author {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+}
+
+.buttons button {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}
+
+button i {
+  margin-right: 6px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 500px) {
+  #quote {
+    font-size: 1.1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .buttons button {
+    margin: 6px 0;
+    width: 100%;
+  }
+}
