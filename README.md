@@ -29,5 +29,4 @@ Check out the live version here: [🔗 Live Demo](#) *(https://shagz-tech.github
 ---
 
 
-## 📂 Project Structure
 
