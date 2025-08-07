@@ -27,6 +27,7 @@ Check out the live version here: [🔗 Live Demo](#) *(https://shagz-tech.github
 - JavaScript (Vanilla)
 
 ---
-
+Author
+shagun gupta
 
 
