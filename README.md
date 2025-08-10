@@ -29,5 +29,6 @@ Check out the live version here: [🔗 Live Demo](#) *(https://shagz-tech.github
 ---
 Author
 shagun gupta
+🔗 GitHub (https://github.com/shagz-tech) 🔗 Portfolio (https://shagz-tech.github.io/portfolio/)
 
 
