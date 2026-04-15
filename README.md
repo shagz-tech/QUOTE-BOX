@@ -16,7 +16,7 @@ A stylish and dynamic Quote Box web app that displays motivational and inspirati
 
  🚀 Demo
 
-Check out the live version here: [🔗 Live Demo](#) *(https://shagz-tech.github.io/QUOTE-BOX/)*
+Check out the live version here: [🔗(https://shagz-tech.github.io/QUOTE-BOX/)]
 
 ---
 
