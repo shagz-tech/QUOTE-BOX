@@ -26,9 +26,6 @@ Check out the live version here: [🔗(https://shagz-tech.github.io/QUOTE-BOX/)]
 - CSS3
 - JavaScript (Vanilla)
 
----
-Author
-shagun gupta
-🔗 GitHub (https://github.com/shagz-tech) 🔗 Portfolio (https://shagz-tech.github.io/portfolio/)
+
 
 
